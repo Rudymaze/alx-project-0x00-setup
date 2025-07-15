@@ -32,6 +32,11 @@ const LandingPage: React.FC = () => {
           <Button title="Large Rounded-md" size="large" shape="rounded-md" />
           <Button title="Large Rounded-full" size="large" shape="rounded-lg" />
         </div>
+        <div className="flex gap-4">
+          <Button title="Large Rounded-sm" size="large" shape="rounded-sm" />
+          <Button title="Large Rounded-md" size="large" shape="rounded-md" />
+          <Button title="Custom Style" size="medium" shape="rounded-full" />
+        </div>
       </div>
     </div>
   );
