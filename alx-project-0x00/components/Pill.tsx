@@ -1,8 +1,4 @@
-import React from "react";
-
-interface PillProps {
-  title: string;
-}
+import { PillProps } from "@/interfaces";
 
 const Pill: React.FC<PillProps> = ({ title }) => {
   return (
@@ -11,4 +7,5 @@ const Pill: React.FC<PillProps> = ({ title }) => {
     </div>
   );
 };
+
 export default Pill;
